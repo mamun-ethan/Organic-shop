@@ -12,7 +12,7 @@ export default function mainHeader() {
           </div>
           {/* searchbar */}
           <div className="w-full">
-            <form class="w-96 mx-auto">
+            <form class="w-[70%] mx-auto">
               <div class="relative">
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <svg

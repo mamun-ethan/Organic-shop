@@ -45,6 +45,10 @@ This is a full-stack web application for an organic shop, built using modern web
 - **Dotenv**: For managing environment variables.
 - **Nodemon**: For backend development with live reloading.
 
+## Live 🚀🚀🚀
+
+-- [**Organic Shop**](https://organic-shop-ten.vercel.app/)
+
 ## Setup and Installation
 
 ### Prerequisites
