@@ -95,8 +95,8 @@ export default function Navbar() {
             </ul>
           </div>
           {/* card,wish list ,user */}
-          <div className="flex flex-row justify-between items-end gap-4">
-            <div>
+          <div className="flex flex-row  justify-between items-end gap-4">
+            <div className="cursor-pointer">
               <svg
                 width="32"
                 height="32"
@@ -111,7 +111,7 @@ export default function Navbar() {
                 />
               </svg>
             </div>
-            <div>
+            <div className="cursor-pointer">
               <svg
                 width="34"
                 height="34"
@@ -128,7 +128,7 @@ export default function Navbar() {
                 />
               </svg>
             </div>
-            <div>
+            <div className="cursor-pointer">
               <svg
                 width="32"
                 height="32"

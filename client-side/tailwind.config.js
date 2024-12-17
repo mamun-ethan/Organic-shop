@@ -3,8 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     fontFamily: {
-      roboto: ["Roboto", "sans-serif"],
-      lora: ["Lora", "serif"],
+      popping: ["Poppins", "sans-serif"],
     },
     colors: {
       successLight: "#84D187",
