@@ -11,11 +11,11 @@ export default function hero() {
           {/* Big Banner */}
           <div className="col-span-1 md:col-span-2 row-span-3 md:row-span-6 h-full">
             <div
-              className="w-full h-full relative rounded-lg bg-cover bg-center"
+              className="w-full h-full flex pl-5 md:justify-start items-center rounded-lg bg-cover bg-center"
               style={{ backgroundImage: `url(${BannerBig})` }}
             >
               {/* content */}
-              <div className="absolute flex flex-col gap-1 md:gap-6 m-2 md:m-5 md:top-1/3">
+              <div className=" flex flex-col gap-1 md:gap-6 m-2 md:m-5 ">
                 <div>
                   <h1 className="capitalize text-xl md:text-5xl font-semibold text-white">
                     Fresh & Healthy <br /> Organic Food
@@ -61,10 +61,12 @@ export default function hero() {
           {/* Small Banner One */}
           <div className="row-span-3 col-span-1 h-full">
             <div
-              className="w-full h-full relative rounded-lg bg-cover bg-center"
+              className="w-full h-full  rounded-lg bg-cover bg-center flex justify-start   text-start items-center"
               style={{ backgroundImage: `url(${BannerSmallOne})` }}
             >
-              <div className="absolute flex flex-col gap-2 md:gap-5 left-5 top-1 md:top-1/4">
+              {" "}
+              {/* content */}
+              <div className=" flex flex-col gap-2 pl-5 md:gap-5 ">
                 <div className="flex flex-col gap-1  md:gap-2 ">
                   <h6 className="uppercase text-gray-900 font-medium text-base">
                     summber
