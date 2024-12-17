@@ -10,7 +10,7 @@ export default function brand() {
   return (
     <div className="my-5">
       <div className="container mx-auto px-5">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-2">
+        <div className="flex flex-row justify-between items-center gap-2">
           <div>
             <img src={BrandOne} alt="" />
           </div>
