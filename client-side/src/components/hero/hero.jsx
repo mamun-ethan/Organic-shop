@@ -64,12 +64,12 @@ export default function hero() {
               className="w-full h-full relative rounded-lg bg-cover bg-center"
               style={{ backgroundImage: `url(${BannerSmallOne})` }}
             >
-              <div className="absolute flex flex-col gap-5 left-5 top-1/4">
-                <div className="flex flex-col gap-2 ">
+              <div className="absolute flex flex-col gap-2 md:gap-5 left-5 top-1 md:top-1/4">
+                <div className="flex flex-col gap-1  md:gap-2 ">
                   <h6 className="uppercase text-gray-900 font-medium text-base">
                     summber
                   </h6>
-                  <h2 className="uppercase text-gray-900 font-semibold text-4xl">
+                  <h2 className="uppercase text-gray-900 font-semibold text-2xl  md:text-4xl">
                     75% off
                   </h2>
                   <span className="text-gray-600 font-normal capitalize">
@@ -80,7 +80,7 @@ export default function hero() {
                 <div>
                   <a
                     href="#"
-                    className="  inline-flex items-center  text-sm md:text-base  font-semibold text-success hover:text-successDark gap-1 md:gap-2 "
+                    className=" capitalize  inline-flex items-center  text-sm md:text-base  font-semibold text-success hover:text-successDark gap-1 md:gap-2 "
                   >
                     <span>shop now</span>
                     <svg
@@ -114,9 +114,49 @@ export default function hero() {
           {/* Small Banner Two */}
           <div className="row-span-3 col-span-1 h-full">
             <div
-              className="w-full h-full rounded-lg bg-cover bg-center"
+              className="w-full h-full flex justify-center  text-center items-center  rounded-lg bg-cover bg-center"
               style={{ backgroundImage: `url(${BannerSmallTwo})` }}
-            ></div>
+            >
+              {/* content */}
+              <div className="mx-5 space-y-5">
+                <span className="uppercase text-base  font-medium tracking-wider text-gray-50">
+                  best deal
+                </span>
+                <h1 className="font-semibold text-3xl capitalize text-white">
+                  special products deal of the month
+                </h1>
+                <div>
+                  <a
+                    href="#"
+                    className=" capitalize  inline-flex items-center  text-sm md:text-base  font-semibold text-success hover:text-successDark gap-1 md:gap-2 "
+                  >
+                    <span>shop now</span>
+                    <svg
+                      width="18"
+                      height="15"
+                      viewBox="0 0 18 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5 7.50055H1.5"
+                        stroke="#00B307"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.45 1.47552L16.5 7.49953L10.45 13.5245"
+                        stroke="#00B307"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
