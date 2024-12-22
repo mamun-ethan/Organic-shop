@@ -12,6 +12,7 @@ export default {
       warning: "#FF8A00",
       danger: "#EA4B48",
       white: "#ffffff",
+      lightWarning: "#FCC900",
       gray: {
         50: "#F2F2F2",
         100: "#E6E6E6",

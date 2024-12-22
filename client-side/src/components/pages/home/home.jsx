@@ -5,6 +5,7 @@ import Brand from "../../brands/brand";
 import Hero from "../../hero/hero";
 import Categores from "../../categores/categores";
 import PopularProducts from "../../popular-products/popularProducts";
+import Banner from "../../banner/banner.jsx";
 export default function home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function home() {
         <Featured />
         <Categores />
         <PopularProducts />
+        <Banner />
         <Brand />
       </Layout>
     </>

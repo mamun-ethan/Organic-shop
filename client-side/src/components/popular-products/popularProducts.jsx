@@ -84,10 +84,10 @@ export default function popularProducts() {
         </div>
         <br />
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-5">
+        <div className="grid grid-cols-2 md:grid-cols-3  lg:grid-cols-5">
           {Products.map((items, index) => {
             return (
-              <div className="flex flex-col justify-between gap-5 border border-gray-100 shadow hover:shadow-successLight group relative  hover:border-successDark group cursor-pointer rounded-md items-center pb-4 px-5">
+              <div className="flex flex-col justify-between gap-5 border border-gray-100 shadow hover:shadow-successLight group relative  hover:border-successDark group cursor-pointer items-center pb-4 px-5">
                 <div>
                   <img src={items.image} alt="" />
                 </div>
