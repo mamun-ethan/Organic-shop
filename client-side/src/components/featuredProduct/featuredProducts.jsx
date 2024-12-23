@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function popularProducts({ products }) {
+export default function featuredProducts({ products }) {
   return (
-    <div className="my-10">
+    <div className="mt-10 mb-16">
       <div className="container mx-auto px-5">
         <div className="my-8 flex flex-row justify-between items-center">
           <h1 className="font-semibold text-xl  md:text-4xl capitalize text-start ">
-            popular products
+            featured products
           </h1>
           <a href="#" class="shop-btn">
             <span>view all</span>
@@ -37,7 +37,7 @@ export default function popularProducts({ products }) {
         <br />
 
         <div className="grid grid-cols-2 md:grid-cols-3  lg:grid-cols-5">
-          {products.map((items, index) => {
+          {products.slice(1, 6).map((items, index) => {
             return (
               <div
                 key={index}

@@ -77,7 +77,7 @@ export default function banner() {
                 </div>
               </div>
               <div>
-                <a href="#" class="shop-btn">
+                <a href="#" class="shop-btn-bg">
                   <span>shop now</span>
                   <svg
                     width="18"
@@ -126,7 +126,7 @@ export default function banner() {
               {/* button */}
 
               <div className="mt-7">
-                <a href="#" class="shop-btn">
+                <a href="#" class="shop-btn-bg">
                   <span>shop now</span>
                   <svg
                     width="18"
@@ -178,7 +178,7 @@ export default function banner() {
               {/* button */}
 
               <div className="mt-7">
-                <a href="#" class="shop-btn">
+                <a href="#" class="shop-btn-bg">
                   <span>shop now</span>
                   <svg
                     width="18"

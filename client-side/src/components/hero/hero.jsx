@@ -28,7 +28,7 @@ export default function hero() {
                   </span>
                 </div>
                 <div className="">
-                  <a href="#" className="shop-btn">
+                  <a href="#" className="shop-btn-bg">
                     <span>shop now</span>
                     <svg
                       width="18"

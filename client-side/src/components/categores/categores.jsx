@@ -64,10 +64,35 @@ export default function categores() {
   return (
     <div className="my-10">
       <div className="container mx-auto px-5">
-        <div className="my-8">
+        <div className="my-8 flex justify-between  items-center">
           <h1 className="font-semibold text-xl  md:text-4xl capitalize text-start ">
             popular categores
           </h1>
+          <a href="#" class="shop-btn">
+            <span>view all</span>
+            <svg
+              width="18"
+              height="15"
+              viewBox="0 0 18 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.5 7.50055H1.5"
+                stroke="#00B307"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M10.45 1.47552L16.5 7.49953L10.45 13.5245"
+                stroke="#00B307"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
         </div>
         <br />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 lg:grid-cols-6">
