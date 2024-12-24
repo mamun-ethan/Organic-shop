@@ -7,6 +7,8 @@ import Categores from "../../categores/categores";
 import PopularProducts from "../../popular-products/popularProducts";
 import Banner from "../../banner/banner.jsx";
 import HotDeal from "../../hotDeal/hotDeal.jsx";
+import News from "../../news/news.jsx";
+import Testimonial from "../../Testimonials/testimonials.jsx";
 import DiscountBanner from "../../discountBanner/discountBanner.jsx";
 import FeaturedProducts from "../../featuredProduct/featuredProducts.jsx";
 import Orange from "../../../assets/image/popular-products/orange.png";
@@ -94,6 +96,8 @@ export default function home() {
         <HotDeal products={products} />
         <FeaturedProducts products={products} />
         <DiscountBanner />
+        <News />
+        <Testimonial />
         <Brand />
       </Layout>
     </>
