@@ -11,3 +11,6 @@ body {
 .shop-btn-bg {
   @apply inline-flex items-center  text-sm md:text-base  font-semibold text-success hover:text-successDark gap-1 md:gap-2 bg-white rounded-full px-3 md:px-7 py-1.5 md:py-2.5;
 }
+.shop-btn-success {
+  @apply inline-flex items-center  text-sm md:text-base  font-semibold text-white hover:text-successDark gap-1 md:gap-2 bg-success rounded-full px-3 md:px-7 py-1.5 md:py-2.5;
+}
