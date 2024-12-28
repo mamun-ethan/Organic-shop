@@ -41,20 +41,20 @@ export default function mainHeader() {
                 <input
                   type="search"
                   id="default-search"
-                  class="block w-full py-3 px-2 pl-10 rounded-l text-sm text-gray-900 border  bg-gray-50 border-gray-300 focus:outline-none "
+                  class="block w-full py-3 px-2 pl-10 rounded-md text-sm text-gray-900 border  bg-gray-50 border-gray-300 focus:outline-none "
                   placeholder="Search"
                   required
                 />
                 <button
                   type="submit"
-                  class="absolute right-0 bottom-0 top-0 bg-success text-white font-semibold text-sm tracking-wider px-4 py-2 rounded-l  "
+                  class="absolute right-0 bottom-0 top-0 bg-success text-white font-semibold text-sm tracking-wider px-4 py-2 rounded-md  "
                 >
                   Search
                 </button>
               </div>
             </form>
           </div>
-          {/* contac */}
+          {/* contact */}
           <div className="flex justify-between items-center gap-2">
             <span>
               <svg

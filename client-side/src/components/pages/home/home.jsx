@@ -11,6 +11,7 @@ import News from "../../news/news.jsx";
 import Testimonial from "../../Testimonials/testimonials.jsx";
 import DiscountBanner from "../../discountBanner/discountBanner.jsx";
 import FeaturedProducts from "../../featuredProduct/featuredProducts.jsx";
+import NewsLatter from "../../newsLatter/newsLatter.jsx";
 import Orange from "../../../assets/image/popular-products/orange.png";
 import Apple from "../../../assets/image/popular-products/apple.png";
 import Cobbage from "../../../assets/image/popular-products/cabbage.png";
@@ -99,6 +100,7 @@ export default function home() {
         <News />
         <Testimonial />
         <Brand />
+        <NewsLatter />
       </Layout>
     </>
   );
