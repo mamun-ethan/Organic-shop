@@ -4,9 +4,9 @@ export default function subHeader() {
   return (
     <div className="subHeader text-gray-600 border-b-2 font-normal text-sm py-4">
       <div className="container mx-auto px-5">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row font-medium justify-between items-center">
           {/* address */}
-          <div className=" flex justify-between items-center gap-2">
+          <div className=" flex justify-between font-normal  items-center gap-2">
             <span>
               <svg
                 width="17"

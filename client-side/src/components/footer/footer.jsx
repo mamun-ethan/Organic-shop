@@ -21,7 +21,7 @@ export default function footer() {
     <div className="bg-gray-900 py-10">
       <div className="container mx-auto px-5">
         <div className="grid grid-cols capitalize md:grid-cols-3 md:gap-16">
-          <div className="flex flex-col justify-between gap-3  items-start">
+          <div className="flex flex-col justify-between gap-3 mb-8 md:mb-0  items-start">
             <div>
               <img src={Logo_footer} alt="" />
             </div>
@@ -42,8 +42,8 @@ export default function footer() {
             </div>
           </div>
           <>
-            <div className="flex flex-row mx-5 justify-between items-center">
-              <div className="text-center">
+            <div className="flex flex-row mx-5 mb-8 md:mb-0 justify-between items-center">
+              <div className="text-start">
                 <h6 className="text-white text-lg font-medium mb-5 ">
                   my account
                 </h6>
@@ -52,13 +52,68 @@ export default function footer() {
                     <a href="#">my account</a>
                   </li>
                   <li className="hover:text-white">
-                    <a href="#">my account</a>
+                    <a href="#">order history</a>
                   </li>
                   <li className="hover:text-white">
-                    <a href="#">my account</a>
+                    <a href="#">shopping cart</a>
                   </li>
                   <li className="hover:text-white">
-                    <a href="#">my account</a>
+                    <a href="#">wishlist</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="text-start">
+                <h6 className="text-white text-lg font-medium mb-5 ">helps</h6>
+                <ul className="text-sm font-normal space-y-5 text-gray-400  ">
+                  <li className="hover:text-white">
+                    <a href="#">contact</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">faqs</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">terms & condition</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">privacy policey</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex flex-row mx-5 justify-between items-center">
+              <div className="text-start">
+                <h6 className="text-white text-lg font-medium mb-5 ">proxy</h6>
+                <ul className="text-sm font-normal space-y-5 text-gray-400  ">
+                  <li className="hover:text-white">
+                    <a href="#">about</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">shop</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">product</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">order tracking</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="text-start">
+                <h6 className="text-white text-lg font-medium mb-5 ">
+                  categories
+                </h6>
+                <ul className="text-sm font-normal space-y-5 text-gray-400  ">
+                  <li className="hover:text-white">
+                    <a href="#">Fruit & Vegetables</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">Meat & Fish</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">Bread & Bakery</a>
+                  </li>
+                  <li className="hover:text-white">
+                    <a href="#">Beauty & Health</a>
                   </li>
                 </ul>
               </div>

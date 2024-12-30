@@ -2,7 +2,7 @@ import React from "react";
 
 export default function newsLatter() {
   return (
-    <div className="my-5 bg-gray-50 py-10">
+    <div className=" bg-gray-50 py-10">
       <div className="container mx-auto px-5">
         <div className="flex flex-col  md:flex-row justify-between items-center gap-10 md:gap-2">
           <div className="flex flex-col justify-between items-start gap-5 md:gap-2">
