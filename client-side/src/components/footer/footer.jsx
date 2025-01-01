@@ -25,13 +25,13 @@ export default function footer() {
             <div>
               <img src={Logo_footer} alt="" />
             </div>
-            <div>
+            <div className="mr-10 md:mr-0">
               <p className="text-sm text-gray-500 font-normal">
                 Morbi cursus porttitor enim lobortis molestie. Duis gravida
                 turpis dui, eget bibendum magna congue nec.
               </p>
             </div>
-            <div className="flex flex-row  text-white font-medium gap-2 justify-between items-center">
+            <div className="flex flex-col items-start md:flex-row  text-white font-medium gap-2 justify-between md:items-center">
               <span className="border-b-2 border-success">
                 (+880)1959674025
               </span>
@@ -42,7 +42,7 @@ export default function footer() {
             </div>
           </div>
           <>
-            <div className="flex flex-row mx-5 mb-8 md:mb-0 justify-between items-center">
+            <div className="flex flex-row md:mx-5 gap-2 mb-8 md:mb-0 justify-between items-center">
               <div className="text-start">
                 <h6 className="text-white text-lg font-medium mb-5 ">
                   my account
@@ -80,7 +80,7 @@ export default function footer() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-row mx-5 justify-between items-center">
+            <div className="flex flex-row md:mx-5 justify-between items-center">
               <div className="text-start">
                 <h6 className="text-white text-lg font-medium mb-5 ">proxy</h6>
                 <ul className="text-sm font-normal space-y-5 text-gray-400  ">

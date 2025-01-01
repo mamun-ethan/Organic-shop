@@ -1,13 +1,11 @@
 import React from "react";
-import SubHeader from "./subHeader";
-import MainHeader from "./mainHeader";
-import Navbar from "./navbar";
+import Deskop from "./desktop.jsx";
+import Mobile from "./mobileHeader.jsx";
 export default function header() {
   return (
-    <header className="hidden md:block">
-      <SubHeader />
-      <MainHeader />
-      <Navbar />
+    <header>
+      <Deskop className=" hidden md:block" />
+      <Mobile />
     </header>
   );
 }
