@@ -6,8 +6,10 @@ export default function mobileHeader() {
       <div className="bg-gray-800 py-5">
         <div className="container mx-auto px-2">
           <div className="flex flex-row justify-between items-center">
+            {/* toggle icon */}
             <div>
               <svg
+                className="cursor-pointer "
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -21,12 +23,12 @@ export default function mobileHeader() {
               </svg>
             </div>
             <div className="flex justify-center items-center">
-              <img src={Logo} className="w-[80%]" alt="" />
+              <img src={Logo} className="w-[80%] cursor-pointer" alt="" />
             </div>
-            <div className="flex flex-row  justify-between items-end ">
+            <div className="flex flex-row  justify-between gap-1 items-end ">
               <div className="cursor-pointer">
                 <svg
-                  class="w-7 h-7 stroke-gray-200"
+                  class="w-6 h-6 stroke-gray-200"
                   viewBox="0 0 20 21"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -49,8 +51,8 @@ export default function mobileHeader() {
               </div>
               <div className="cursor-pointer">
                 <svg
-                  width="30"
-                  height="30"
+                  width="24"
+                  height="24"
                   viewBox="0 0 34 34"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +68,8 @@ export default function mobileHeader() {
               </div>
               <div className="cursor-pointer">
                 <svg
-                  width="30"
-                  height="30"
+                  width="24"
+                  height="24"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

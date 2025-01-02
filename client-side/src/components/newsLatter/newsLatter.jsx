@@ -30,7 +30,7 @@ export default function newsLatter() {
                   />
                   <button
                     type="submit"
-                    class="absolute right-0 bottom-0 top-0 bg-success text-white font-semibold text-sm tracking-wider px-6 py-2 rounded-full  capitalize  "
+                    class="absolute right-0 bottom-0 top-0 bg-success text-white font-semibold text-sm tracking-wider px-4 md:px-6 py-2 rounded-full  capitalize  "
                   >
                     subscribe
                   </button>

@@ -17,15 +17,15 @@ export default function banner() {
                 <h5 className="uppercase text-lg font-medium ">best deals</h5>
               </div>
               <div>
-                <h1 className=" text-4xl font-semibold capitalize ">
+                <h1 className=" text-3xl md:text-4xl font-semibold capitalize ">
                   sale of this month
                 </h1>
               </div>
               {/* timer */}
-              <div className="flex flex-row justify-between gap-2 items-center">
+              <div className="flex flex-row justify-between  gap-0 md:gap-2 items-center">
                 <div className="flex  flex-col ">
-                  <span className="font-medium text-2xl">00</span>
-                  <span className="text-lg uppercase">days</span>
+                  <span className="font-medium text-lg md:text-2xl">00</span>
+                  <span className="text-sm md:text-lg uppercase">days</span>
                 </div>
                 <div>
                   <svg
@@ -56,8 +56,8 @@ export default function banner() {
                   </svg>
                 </div>
                 <div className="flex  flex-col ">
-                  <span className="font-medium text-2xl">18</span>
-                  <span className="text-lg uppercase">mins</span>
+                  <span className="font-medium text-lg  md:text-2xl">18</span>
+                  <span className="text-sm md:text-lg uppercase">mins</span>
                 </div>
                 <div>
                   <svg
@@ -72,8 +72,8 @@ export default function banner() {
                   </svg>
                 </div>
                 <div className="flex  flex-col ">
-                  <span className="font-medium text-2xl">46</span>
-                  <span className="text-lg uppercase">secs</span>
+                  <span className="font-medium  text-lg md:text-2xl">46</span>
+                  <span className=" text-sm md:text-lg uppercase">secs</span>
                 </div>
               </div>
               <div>

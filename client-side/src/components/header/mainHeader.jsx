@@ -3,7 +3,7 @@ import logo from "../../assets/image/Logo.png";
 
 export default function mainHeader() {
   return (
-    <div className="py-6">
+    <div className="py-4">
       <div className="container mx-auto px-5">
         <div className="flex justify-between items-center gap-2">
           {/* logo */}

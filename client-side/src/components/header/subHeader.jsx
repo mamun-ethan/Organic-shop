@@ -2,7 +2,7 @@ import React from "react";
 
 export default function subHeader() {
   return (
-    <div className="subHeader text-gray-600 border-b-2 font-normal text-sm py-4">
+    <div className="subHeader text-gray-600 border-b-2 border-gray-100 font-normal text-sm py-4">
       <div className="container mx-auto px-5">
         <div className="flex flex-col md:flex-row font-medium justify-between items-center">
           {/* address */}

@@ -4,7 +4,7 @@ import Mobile from "./mobileHeader.jsx";
 export default function header() {
   return (
     <header>
-      <Deskop className=" hidden md:block" />
+      <Deskop />
       <Mobile />
     </header>
   );

@@ -64,7 +64,7 @@ export default function hotDeal({ products }) {
                 <div>
                   <a
                     href="#"
-                    className="flex justify-center items-center gap-2 bg-success hover:bg-successDark text-white font-semibold text-lg py-2 px-7 rounded-full capitalize"
+                    className="flex flex-row justify-center items-center gap-2 bg-success hover:bg-successDark text-white font-semibold text-base md:text-lg py-2 px-5 md:px-7 rounded-full capitalize"
                   >
                     add to cart{" "}
                     <svg
@@ -203,10 +203,12 @@ export default function hotDeal({ products }) {
                     Hurry up! Offer ends In:
                   </span>
                   {/* timer */}
-                  <div className="flex flex-row text-gray-900 justify-between gap-2 items-center">
+                  <div className="flex flex-row text-gray-900 justify-between md:gap-2 items-center">
                     <div className="flex  flex-col ">
-                      <span className="font-medium text-2xl">00</span>
-                      <span className="text-lg text-gray-400 uppercase">
+                      <span className="font-medium text-sm  md:text-2xl">
+                        00
+                      </span>
+                      <span className=" text-sm md:text-lg text-gray-400 uppercase">
                         days
                       </span>
                     </div>
@@ -224,8 +226,10 @@ export default function hotDeal({ products }) {
                       </svg>
                     </div>
                     <div className="flex  flex-col ">
-                      <span className="font-medium text-2xl">02</span>
-                      <span className="text-lg text-gray-400  uppercase">
+                      <span className="font-medium text-sm md:text-2xl">
+                        02
+                      </span>
+                      <span className=" text-sm md:text-lg text-gray-400  uppercase">
                         hours
                       </span>
                     </div>
@@ -243,8 +247,10 @@ export default function hotDeal({ products }) {
                       </svg>
                     </div>
                     <div className="flex  flex-col ">
-                      <span className="font-medium text-2xl">18</span>
-                      <span className="text-lg text-gray-400  uppercase">
+                      <span className="font-medium text-sm md:text-2xl">
+                        18
+                      </span>
+                      <span className=" text-sm md:text-lg text-gray-400  uppercase">
                         mins
                       </span>
                     </div>
@@ -262,8 +268,10 @@ export default function hotDeal({ products }) {
                       </svg>
                     </div>
                     <div className="flex  flex-col ">
-                      <span className="font-medium text-2xl">46</span>
-                      <span className="text-lg uppercase text-gray-400 ">
+                      <span className="font-medium text-sm  md:text-2xl">
+                        46
+                      </span>
+                      <span className="text-sm md:text-lg uppercase text-gray-400 ">
                         secs
                       </span>
                     </div>
