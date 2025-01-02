@@ -26,7 +26,7 @@ export default function mobileHeader() {
               <img src={Logo} className="w-[80%] cursor-pointer" alt="" />
             </div>
             <div className="flex flex-row  justify-between gap-1 items-end ">
-              <div className="cursor-pointer">
+              <div className="cursor-pointer ">
                 <svg
                   class="w-6 h-6 stroke-gray-200"
                   viewBox="0 0 20 21"
@@ -48,8 +48,11 @@ export default function mobileHeader() {
                     stroke-linejoin="round"
                   />
                 </svg>
+                <span className="absolute text-[8px] top-2 left-3 bg-successDark rounded-full px-1 text-white border-2">
+                  2
+                </span>
               </div>
-              <div className="cursor-pointer">
+              <div className="cursor-pointer relative">
                 <svg
                   width="24"
                   height="24"
@@ -65,6 +68,9 @@ export default function mobileHeader() {
                     stroke-linejoin="round"
                   />
                 </svg>
+                <span className="absolute text-[8px] top-2 left-3 bg-successDark rounded-full px-1 text-white border-2">
+                  2
+                </span>
               </div>
               <div className="cursor-pointer">
                 <svg
@@ -90,7 +96,7 @@ export default function mobileHeader() {
           </div>
         </div>
       </div>
-      <div className="nav absolute hidden top-[70px] left-0 bg-white w-[60%] h-[70vh]">
+      <div className="nav absolute  top-[70px] left-0 bg-white w-[60%] h-[70vh]">
         {/* close btn */}
         <div className="flex w-full  mt-3 justify-end">
           <svg
@@ -193,7 +199,7 @@ export default function mobileHeader() {
           </ul>
         </div>
         {/* wishlist */}
-        <div className="flex flex-row justify-end px-5 items-center">
+        <div className="flex flex-row relative justify-end px-5 items-center">
           <svg
             width="25"
             height="24"
@@ -207,6 +213,9 @@ export default function mobileHeader() {
               stroke-width="1.5"
             />
           </svg>
+          <span className="absolute text-[8px]  bg-successDark rounded-full px-1 text-white border-2">
+            2
+          </span>
         </div>
       </div>
     </div>

@@ -88,7 +88,7 @@ export default function mainHeader() {
                 />
               </svg>
             </span>
-            <span className="flex text-gray-900 font-medium text-xl justify-between items-start gap-2">
+            <span className="flex text-gray-900 font-medium text-lg justify-between items-start gap-2">
               <span>+880</span>
               <span>1959674025</span>
             </span>
